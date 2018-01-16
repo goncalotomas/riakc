@@ -1,0 +1,8 @@
+{"1.1.0",
+[{<<"hamcrest">>,{pkg,<<"basho_hamcrest">>,<<"0.4.1">>},1},
+ {<<"riak_pb">>,{pkg,<<"riak_pb">>,<<"2.3.2">>},0}]}.
+[
+{pkg_hash,[
+ {<<"hamcrest">>, <<"FB7B2C92D252A1E9DB936750B86089ADDAEBEB8F87967FB4BBDDA61E8863338E">>},
+ {<<"riak_pb">>, <<"48FFBF66DBB3F136AB9A7134BAC4E496754BAA5EF58C4F50A61326736D996390">>}]}
+].
