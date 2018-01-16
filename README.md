@@ -1,13 +1,11 @@
-# Riak Erlang Client
+# Riak Erlang Client [![Build Status](https://travis-ci.org/goncalotomas/riakc.svg?branch=master)](https://travis-ci.org/goncalotomas/riakc)
 
-This document assumes that you have already started your Riak cluster. For instructions on that prerequisite, refer to the [setup][kv_setup] guide in the [Basho Docs][basho_docs]. You can also view the Riak Erlang Client EDocs [here][erlang_client_edocs].
+This is a fork from Basho's [riak-erlang-client](http://github.com/basho/riak-erlang-client). Updates to that repository are too slow and I wanted to keep a modified version that works with Erlang R16 up to the latest (currently 20.2). Feel free to improve the existing codebase in any way, although I did not intend for this repository to deviate much from the original.
 
-Build Status
+Old README.md:
 ============
 
-* Master: [![Build Status](https://travis-ci.org/basho/riak-erlang-client.svg?branch=master)](https://travis-ci.org/basho/riak-erlang-client)
-* Develop: [![Build Status](https://travis-ci.org/basho/riak-erlang-client.svg?branch=develop)](https://travis-ci.org/basho/riak-erlang-client)
-
+This document assumes that you have already started your Riak cluster. For instructions on that prerequisite, refer to the [setup][kv_setup] guide in the [Basho Docs][basho_docs]. You can also view the Riak Erlang Client EDocs [here][erlang_client_edocs].
 
 This document assumes that you have already started your Riak cluster.  For instructions on that prerequisite, refer to [Installation and Setup](https://wiki.basho.com/Installation-and-Setup.html) in the [Riak Wiki](https://wiki.basho.com). You can also view the Riak Erlang Client EDocs [here](http://basho.github.com/riak-erlang-client/).
 

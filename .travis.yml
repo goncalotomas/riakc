@@ -1,0 +1,14 @@
+sudo: false
+language: erlang
+dist: trusty
+sudo: false
+otp_release:
+  - 20.2
+  - 19.3
+  - 18.3
+  - 17.5
+  - R16B03-1
+install:
+  - rebar3 compile
+script:
+  - rebar3 eunit
