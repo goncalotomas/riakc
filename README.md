@@ -12,7 +12,7 @@ This document assumes that you have already started your Riak cluster.  For inst
 Dependencies
 ============
 
-To build the riak-erlang-client you will need Erlang OTP R15B01 or later, and Git.
+To build the riak-erlang-client you will need Erlang OTP R16B03-1 or later, and Git.
 
 Debian
 ------
