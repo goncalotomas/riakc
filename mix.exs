@@ -4,7 +4,7 @@ defmodule Riakc.Mixfile do
   @version File.read!("VERSION") |> String.strip
 
   def project do
-    [app: :riakc,
+    [app: :riak_client,
      version: @version,
      description: "The Riak client for Erlang",
      package: package(),

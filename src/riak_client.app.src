@@ -1,5 +1,5 @@
 %% -*- erlang -*-
-{application, riakc,
+{application, riak_client,
  [{description, "A Riak Erlang Client... Compatible with R16-R20!"}
  ,{vsn, "2.5.3"}
  ,{registered, []}
