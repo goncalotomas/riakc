@@ -11,5 +11,7 @@ otp_release:
   - R16B03-1
 install:
   - rebar3 compile
+before_script:
+  - epmd -daemon
 script:
   - rebar3 eunit
