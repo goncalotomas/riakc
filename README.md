@@ -1,6 +1,6 @@
 # Riak Erlang Client [![Build Status](https://travis-ci.org/goncalotomas/riakc.svg?branch=master)](https://travis-ci.org/goncalotomas/riakc)
 
-This is a fork from Basho's [riak-erlang-client](http://github.com/basho/riak-erlang-client). Updates to that repository are too slow and I wanted to keep a modified version that works with Erlang R16 up to the latest (currently 20.2). Feel free to improve the existing codebase in any way, although I did not intend for this repository to deviate much from the original.
+This is a fork from Basho's [riak-erlang-client](http://github.com/basho/riak-erlang-client). Updates to that repository are too slow and I wanted to keep a modified version that works with Erlang R16 up to the latest (currently R21). Feel free to improve the existing codebase in any way, although I did not intend for this repository to deviate much from the original.
 
 Old README.md:
 ============
