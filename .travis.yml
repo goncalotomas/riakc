@@ -3,12 +3,15 @@ language: erlang
 dist: trusty
 sudo: false
 otp_release:
-  - 20.2
+  - 21.0
+  - 20.3
   - 19.3
   - 18.3
   - 17.5
   - R16B03-1
 install:
   - rebar3 compile
+before_script:
+  - epmd -daemon
 script:
   - rebar3 eunit
