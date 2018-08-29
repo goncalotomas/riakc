@@ -1,7 +1,7 @@
 %% -*- erlang -*-
 {application, riak_client,
  [{description, "A Riak Erlang Client... Compatible with R16-R21!"}
- ,{vsn, "2.5.3"}
+ ,{vsn, "2.5.4"}
  ,{registered, []}
  ,{applications,
    [kernel
